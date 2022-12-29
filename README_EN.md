@@ -1,17 +1,19 @@
 <div align="center">
-    <h1> Miuihome </h1>
+
+<h1>MiuiHome</h1>
 
 <b>Hook for MIUI Launcher - Xposed 
 
-English 丨 [简体中文](https://github.com/1767523953/MiuiHome/blob/main/README.md)</b>
+English 丨 [简体中文](https://github.com/qqlittleice/MiuiHome/blob/main/README.md)</b>
 
-![Launcher](https://github.com/1767523953/MiuiHome/blob/main/Pic/MiuiHome.png)
+![Launcher](https://github.com/qqlittleice/MiuiHome/blob/main/Pic/MiuiHome.png)
 
 
 [![Android CI](https://github.com/qqlittleice/MiuiHome/actions/workflows/android.yml/badge.svg)](https://github.com/qqlittleice/MiuiHome/actions/workflows/android.yml) 
 [![Download](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yuk.miuihome/total)](https://github.com/Xposed-Modules-Repo/com.yuk.miuihome/releases) 
+[![Crowdin](https://badges.crowdin.net/miuihome_xposed/localized.svg)](https://crowdin.com/project/miuihome_xposed) 
 [![Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.yuk.miuihome?label=release)](https://github.com/Xposed-Modules-Repo/com.yuk.miuihome/releases/latest) 
-[![Chat](https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram)](https://t.me/MiuiHome_Xposed)
+[![Chat](https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram)](https://t.me/MiuiHome_Xposed) 
 </div>
 
 -----
@@ -20,58 +22,16 @@ English 丨 [简体中文](https://github.com/1767523953/MiuiHome/blob/main/READ
 
 __Activating this module in LSPosed Manager, restart Miui Launcher once, open Miui Launcher settings, and click on "Module Settings".__
 
-## Past and present
-
-__Old：[YuKongA/MiuiHome](https://github.com/YuKongA/MiuiHome)__
-
-__Now：[qqlittleice/MiuiHome](https://github.com/qqlittleice/MiuiHome)__
-
-## Module Features
-
-<details>
-
-- Enable Smooth Animation.
-- Always show status bar clock.
-- Enable search bar blur.
-- Change task view blur level.
-- Gesture animation speed.
-- Infinite scrolling on the launcher.
-- Hide the status bar in the Task view.
-- The task view applies the card text size.
-- The rounded corner size of the card is applied.
-- Hide launcher application icons.
-- Hide Task view application icons.
-- Hide the Task view clean up icon.
-- Hide the name of the launcher widget.
-- Enable Water Ripple download effect.
-- Blur when opening a folder..
-- Close the folder when opening the app.
-- Cancel the darking effect of Task view wallpaper.
-- Hide the application icons in the Task view.
-- The distance between the Task view application icon and the name.
-- Force the current device to be a high-end device.
-- Allow Android widgets to be moved to -1 screen.
-- Allow MIUI widgets to be displayed in Android widget page.
-- Change Icon Label Font Size
-- Change Folder Column Count
-- Use entire Folder space
-- Hide All Section in App Drawer mode
-- Option to Remove Page Indicator
-- Enable Dock Bar and Dock Bar Blur
-- Hide "Edit" Button in App Category's Paging
-- And more...
-</details>
-
 ## Translation Contributions
 
-If you want to help us translate, please submit a PR after checking that the translation is correct.
-
-and if you want to translate it into a new language, please place it in the appropriate location: (`app/src/main/res/values-[lang]/strings.xml`).
+[Crowdin](https://crowdin.com/project/miuihome_xposed)
 
 ## Credits
 
 <details>
 
+- [AndroidHiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass)
+- [AndroidSystemBlur](https://github.com/Lucchetto/AndroidSystemBlur)
 - [androidx](https://android.googlesource.com/platform/frameworks/support)
 - [AppCenter](https://github.com/microsoft/appcenter)
 - [BiliRoaming](https://github.com/yujincheng08/BiliRoaming)
@@ -84,11 +44,12 @@ and if you want to translate it into a new language, please place it in the appr
 - [MIUltra](https://github.com/lamprose/MIUltra)
 - [QNotified](https://github.com/ferredoxin/QNotified)
 - [XposedBridge](https://github.com/rovo89/XposedBridge)
+- [EzXHelper](https://github.com/KyuubiRan/EzXHelper)
 </details>
 
 ## Screenshot
 
-![Screenshot](https://github.com/1767523953/MiuiHome/blob/main/Pic/Screenshot_EN.png)
+![Screenshot](https://github.com/qqlittleice/MiuiHome/blob/main/Pic/Screenshot_EN.png)
 
 ## License
 
@@ -96,4 +57,4 @@ and if you want to translate it into a new language, please place it in the appr
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/1767523953/MiuiHome.svg)](https://starchart.cc/1767523953/MiuiHome)
+[![Stargazers over time](https://starchart.cc/qqlittleice/MiuiHome.svg)](https://starchart.cc/qqlittleice/MiuiHome)

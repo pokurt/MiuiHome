@@ -1,21 +1,9 @@
-buildscript {
-    var kotlin_version: String by extra
-    kotlin_version = "1.6.10"
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        //noinspection AndroidGradlePluginVersion,GradleDependency
-        classpath("com.android.tools.build:gradle:7.1.0")
-        classpath(kotlin("gradle-plugin", kotlin_version))
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module settings.gradle.kts files
-    }
+plugins {
+    id("com.android.application") version "7.2.1" apply false
+    id("com.android.library") version "7.2.1" apply false
+    id("org.jetbrains.kotlin.android") version "1.8.0" apply false
 }
 
-tasks.register("clean", Delete::class) {
+tasks.register<Delete>("clean").configure {
     delete(rootProject.buildDir)
 }
